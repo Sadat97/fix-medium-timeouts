@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Medium url fixer",
+  "version": "0.0.1",
+  "description": "fixes medium.com url timeout/block",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "https://medium.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background_scripts/background.js"
+    ]
+  }
+}
